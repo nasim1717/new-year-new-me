@@ -57,7 +57,7 @@
     max-width: 500px;
     min-height: 400px;
     /* border: 2px solid red; */
-    margin-left: 990px;
+    margin-left: 895px;
     padding-top: 100px;
     /* margin-top: 100px; */
     
@@ -268,7 +268,7 @@ footer{
     display: flex;
     gap: 22px;
     margin-top: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 65px;
 }
 
 .subscribe .subscribe{
