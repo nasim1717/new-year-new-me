@@ -1,14 +1,27 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
     box-sizing: border-box;
+}
+/* Primary Buttton */
+.btn-primary{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    color: #FFFFFF;
+    padding: 11px 6px;
+    border: 1px solid hsl(25, 98%, 52%);
+    border-radius: 3px;
+    background: hsl(25, 98%, 52%);
 }
 #banner{
     background: url("../images/banner/banner1.png") no-repeat center center / cover;
     width: 100vw;
     height: 95vh; 
-    position: relative;
-    
+    position: relative;  
 }
 .banner-main-content{
     position: relative;
@@ -31,3 +44,25 @@
     flex-direction: column;
     text-align: end;
 }
+#banner .banner-sub-tittle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #151414;
+}
+#banner .banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #444343;
+    /* padding-top: 5px; */
+    margin-top: 10px;
+}
+
+.btn-banner{
+    margin-top: 10px;
+}
+
