@@ -44,7 +44,7 @@
 
 #banner{
     background: url("../images/banner/banner1.png") no-repeat center center / cover;
-    width: 100vw;
+    width: 98.95vw;
     height: 95vh; 
     position: relative;  
 }
@@ -57,8 +57,8 @@
     max-width: 500px;
     min-height: 400px;
     /* border: 2px solid red; */
-    margin-left: 900px;
-    padding-top: px;
+    margin-left: 990px;
+    padding-top: 100px;
     /* margin-top: 100px; */
     
 }
@@ -71,7 +71,7 @@
 }
 #banner .banner-sub-tittle{
     font-style: normal;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 65px;
     line-height: 76px;
     text-align: right;
@@ -106,7 +106,7 @@
     background-blend-mode: ;
 } */
 .failures-content{
-    margin-top: 200px;
+    margin-top: 170px;
     margin-left: 20px;
 }
 
@@ -147,12 +147,13 @@
     font-size: 40px;
     line-height: 47px;
     color: #151414;
+    margin-top: 110px;
 }
 
 .plan-content{
     display: flex;
     justify-content: space-around;
-    margin-top: 72px;
+    margin-top: 78px;
 }
 
 .plan-content .plan-image{
@@ -181,14 +182,15 @@
    margin: auto;
    margin-top: 120px;
    width: 1150px;
+   height: 340px;
    border-radius: 15px;
-   padding: 50px;
-   background: linear-gradient(to right,orange,rgba(174, 160, 159, 0.079)),url("../images/watch.png") no-repeat center center/cover;
+   padding: 40px;
+   background: linear-gradient(to right,rgba(255, 166, 0, 0.793),rgba(174, 160, 159, 0.079)),url("../images/watch.png") no-repeat center center/cover;
 }
 
 .contact-section .contact-section-tittle{
     /* position: absolute; */
-    top: 70px;
+    /* top: 70px; */
     margin-left: 55px;
     max-width: 500px;
 }
