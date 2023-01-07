@@ -26,11 +26,22 @@
     line-height: 23px;
     text-align: center;
     color: #F15B22;
-    padding: 15px 23px;
+    padding: 15px 27px;
     border: 1px solid #F15B22;
     background: white;
     border-radius: 5px;
 }
+
+
+ main{
+    /* max-width: 1297px; */
+    /* border: 2px solid red; */
+    /* margin-left: 99px;
+    height: 100vh; */
+    /* margin-right: 57px; */
+    margin: 10%;
+}
+
 #banner{
     background: url("../images/banner/banner1.png") no-repeat center center / cover;
     width: 100vw;
@@ -80,14 +91,7 @@
     margin-top: 10px;
 }
 
-/* Main */
-main{
-    max-width: 1297px;
-    /* border: 2px solid red; */
-    margin-left: 99px;
-    height: 100vh;
-    /* margin-right: 57px; */
-}
+
 .failures{
     display: flex;
     gap: 20px;
@@ -174,13 +178,16 @@ main{
     color: #737272;
 }
 .contact-section{
-   position: relative;
-   margin-left: 115px;
+   margin: auto;
    margin-top: 120px;
+   width: 1150px;
+   border-radius: 15px;
+   padding: 50px;
+   background: linear-gradient(to right,orange,rgba(174, 160, 159, 0.079)),url("../images/watch.png") no-repeat center center/cover;
 }
 
 .contact-section .contact-section-tittle{
-    position: absolute;
+    /* position: absolute; */
     top: 70px;
     margin-left: 55px;
     max-width: 500px;
@@ -197,3 +204,86 @@ main{
     margin-top: 12px;
 }
 
+footer{
+
+    background: black;
+}
+.main-footer{
+    display: flex;
+    /* justify-content: space-around; */
+  
+    
+}
+.future{
+    max-width: 500px;
+    margin-left: 300px;
+} 
+
+.subscribe-container{
+    width: 450px;
+    height: 500px;
+    margin-left: 300px;
+    /* text-align: center; */
+    /* margin-right: 500px; */
+}
+
+.main-footer .future-tittle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-top: 130px;
+    
+}
+
+
+.main-footer .future-description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.conatct-mail, .contact-phn{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.social-media ul li{
+    list-style: none;
+}
+.social-media ul{
+    display: flex;
+    gap: 22px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.subscribe .subscribe{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 130px;
+}
+.subscribe input{
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 25px;
+    border: 3px solid gray;
+    border-radius: 5px
+
+}
+
+.btn-subscribe{
+    margin-top: 30px;
+}
