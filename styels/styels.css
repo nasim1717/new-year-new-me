@@ -98,7 +98,7 @@
 }
 .failures-content-box{
     max-width: 400px;
-    margin-left: 100px;
+    margin-left: 135px;
     /* border: 1px solid red; */
 }
 /* .failures .img-border{
@@ -112,6 +112,10 @@
 
 .failures-content-box ul li{
     list-style: none;
+}
+.failures-content-box ul li i{
+    padding: 8px;
+    color: green;
 }
 
 .failures-content-box .failures-tittle{
